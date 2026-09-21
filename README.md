@@ -1,6 +1,6 @@
-# Cálculo Aplicado — Implementación de Sumatorias
+# Cálculo Aplicado - Implementación de Sumatorias
 
-Trabajo práctico de la asignatura **Cálculo Aplicado** (Facultad de Ingeniería y Tecnología, UCU) sobre optimización numérica en una dimensión: se estudian fenómenos de error numérico (asociatividad, conmutatividad y representaciones equivalentes de una suma) al implementar sumatorias en Python.
+Trabajo práctico de la asignatura Cálculo Aplicado (Facultad de Ingeniería y Tecnología, UCU) sobre optimización numérica en una dimensión: se estudian fenómenos de error numérico (asociatividad, conmutatividad y representaciones equivalentes de una suma) al implementar sumatorias en Python.
 
 ## Estructura del repositorio
 
@@ -55,12 +55,6 @@ python sec2_asociativa.py
 python sec3_conmutativa.py
 python sec4_representaciones.py
 ```
-
-## Requisitos
-
-- Python 3.9 o superior
-- `numpy`
-- `matplotlib`
 
 ## Integrantes
 
