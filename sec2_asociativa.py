@@ -79,7 +79,7 @@ def graficar(arrayNumeros:Union[List[int], List[float]],floatBool:bool):
         ax.set_xlabel('k')
         ax.set_ylabel('a_N')
     plt.tight_layout()
-    fig.savefig('GraficasFloat.png') if floatBool is True else fig.savefig('GraficasInt.png')
+    fig.savefig('./figuras/GraficasFloat.png') if floatBool is True else fig.savefig('./figuras/GraficasInt.png')
     plt.close(fig)
 graficar([2,3,5,10],False)
 graficar([2.0,3.0,5.0,10.0],True)
