@@ -24,21 +24,31 @@ Trabajo práctico de la asignatura Cálculo Aplicado (Facultad de Ingeniería y 
 ## Instalación
 
 1. Cloná el repositorio:
-   ```bash
+```bash
    git clone https://github.com/micaelacrocco/calculo-aplicado-sumatorias.git
    cd calculo-aplicado-sumatorias
-   ```
+```
 
 2. (Recomendado) Creá un entorno virtual:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate     
-   ```
+```bash
+   python -m venv venv
+```
 
-3. Instalá las dependencias:
-   ```bash
+3. Activá el entorno virtual según tu sistema operativo:
+
+   | Sistema | Comando |
+   |---|---|
+   | Windows (PowerShell) | `venv\Scripts\Activate.ps1` |
+   | Windows (CMD) | `venv\Scripts\activate.bat` |
+   | Linux / macOS | `source venv/bin/activate` |
+
+   > En PowerShell, si aparece un error de ejecución de scripts, corré antes
+   > `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`.
+
+4. Instalá las dependencias:
+```bash
    pip install -r requirements.txt
-   ```
+```
 
 ## Ejecución
 
@@ -47,6 +57,7 @@ Para correr todos los experimentos y generar los gráficos:
 ```bash
 python main.py
 ```
+> **Nota:** la ejecución completa puede tardar varios minutos principalmente por la Sección 3 > (cuatro algoritmos con hasta 1.000.000 de términos).
 
 También se puede ejecutar cada sección de forma independiente:
 
